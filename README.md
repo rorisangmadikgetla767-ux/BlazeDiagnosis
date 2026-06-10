@@ -14,6 +14,11 @@ Understanding what each tech stack do helps you to work with the code more confi
 - React: a JavaScript library developed by Facebook for building dynamic and efficient user interfaces.
   It is widely used for creating single-page applications (SPAs) and follows a component-based architecture
   
+- PostgreSQL: a powerful, highly scalable and fully ACID-compliant open-source relational database management system. Key features innclude : Datatypes and Extensibility.
+  It also supports custom data types.
+  It supports SQL/ relational data
+  
+  
 ## Current Technical Stack
 
 - Frontend: Next.js, React, TypeScript, Tailwind CSS

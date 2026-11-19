@@ -42,20 +42,25 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.12",
     "@types/node": "^25.9.3",
     "@types/pg": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "^6.3.0",
+    "@vitest/coverage-v8": "^4.1.9",
     "dotenv": "^17.2.3",
     "drizzle-kit": "latest",
     "eslint": "9.39.1",
     "eslint-config-next": "latest",
+    "jsdom": "^31.0.1",
     "prettier": "latest",
     "prettier-plugin-organize-imports": "latest",
     "tailwindcss": "latest",
     "tsx": "latest",
     "typescript": "latest",
-    "vitest": "^4.1.9",
-    "@vitest/coverage-v8": "^4.1.9"
+    "vitest": "^4.1.9"
   }
 }

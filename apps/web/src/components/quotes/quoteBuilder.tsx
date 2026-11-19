@@ -1,5 +1,6 @@
 'use client';
-
+// @vitest-environment jsdom
+import '@testing-library/jest-dom/vitest';
 import { Copy, FileText, Plus, Trash2 } from 'lucide-react';
 import type { ChangeEvent, FormEvent } from 'react';
 import { useMemo, useState, useSyncExternalStore } from 'react';
@@ -63,6 +64,7 @@ const initialQuoteState: QuoteBuilderState = {
       description: 'Front brake pads',
       quantity: 1,
       unitPrice: 1100,
+      
     }),
   ],
   quoteNumber: 'QTE-2026-0001',
